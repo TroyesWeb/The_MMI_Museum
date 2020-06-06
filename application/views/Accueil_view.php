@@ -7,12 +7,12 @@
 		<div class="container">
 
 			<!-- Logos -->
-			<div class="row pt-5 pb-5 align-middle logo-wrapper">
-				<div class="col-lg col-sm-2 ">
-					<img class="img-fluid" style="width: 100px" src="<?php echo base_url()?>assets/photos/logonoiretblanc.png" alt="">
+			<div class="row pt-5 pb-5 text-center">
+				<div class="col">
+					<img class="img-fluid" style="width: 13rem" src="<?php echo base_url()?>assets/photos/logonoiretblanc.png" alt="">
 				</div>
-				<div class="col-lg col-sm-2">
-					<img class="img-fluid" style="width: 100px" src="<?php echo base_url()?>assets/photos/logo_mmi_troyes.png" alt="">
+				<div class="col">
+					<img class="img-fluid" style="width: 13rem" src="<?php echo base_url()?>assets/photos/logo_mmi_troyes.png" alt="">
 				</div>
 			</div>
 
