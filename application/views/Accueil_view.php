@@ -7,11 +7,9 @@
 		<div class="container">
 
 			<!-- Logos -->
-			<div class="row pt-5 pb-5 text-center">
-				<div class="col">
+			<div class="row pt-5 pb-5 d-flex justify-content-center text-center">
+				<div class="col col-md-2">
 					<img class="img-fluid" style="width: 13rem" src="<?php echo base_url()?>assets/photos/logonoiretblanc.png" alt="">
-				</div>
-				<div class="col">
 					<img class="img-fluid" style="width: 13rem" src="<?php echo base_url()?>assets/photos/logo_mmi_troyes.png" alt="">
 				</div>
 			</div>
