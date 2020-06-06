@@ -44,7 +44,5 @@
 </div>
 
 <?php $this->load->view('Footer_view'); ?>
+</body>
 </html>
-
-
-<button type="button" class="btn btn-secondary btn-rounded">Secondary</button>
