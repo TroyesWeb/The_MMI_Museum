@@ -1,10 +1,17 @@
 /* Required for full background image */
-
+html,
+body {
+	height: 100%
+}
 html,
 body,
 header,
 .view {
 	height: 100%;
+}
+
+#description {
+	font-weight: 400;
 }
 
 @media (max-width: 740px) {
