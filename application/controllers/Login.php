@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-// TODO: Prise en charge des deux différents types de compte
+// TODO: Prise en charge des deux différents types de compte -> Créer le contrôleur Gestion avec deux méthodes pour les deux types de comptes
 
 class Login extends CI_Controller {
 
