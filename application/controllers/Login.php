@@ -11,7 +11,7 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
-		if (isset($_SESSION['ident']))
+		if (!isset($_SESSION['ident']))
 		{
 			$this->load->view('Login_view');
 		}
