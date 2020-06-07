@@ -1,7 +1,8 @@
 <?php $this->load->view('Head_view'); ?>
 <body>
 
-<div class="container-login100" style="background-image: url('<?php echo base_url() ?>asset/login/images/img-01.jpg');">
+<div class="container-login100" style="background-image: url('<?php echo base_url() ?>assets/login/images/img-01.jpg');">
+	<!-- TODO: Ajouter les images correspondantes -->
 	<div class="wrap-login100 p-t-190 p-b-30">
 		<form class="login100-form validate-form" method="POST" action="<?php echo base_url() ?>Login/Verif">
 
