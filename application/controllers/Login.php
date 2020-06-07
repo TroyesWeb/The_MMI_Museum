@@ -21,7 +21,7 @@ class Login extends CI_Controller {
 	public function Verif()
 	{
 		$ident = $this->input->post('identifiant');
-		$mdp = $this->input->post('password');
+		$mdp = sha1($this->input->post('password'), 256); // Pas sur
 
 
 		$this->load->model('Login_model');
