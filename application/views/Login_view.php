@@ -31,7 +31,7 @@
 						<div class="card-body px-lg-5">
 
 							<!-- Form -->
-							<form class="text-left text-white" action="#!">
+							<form id="connexion" class="text-left text-white" action="#!">
 
 								<!-- Identifiant -->
 								<div class="md-form mt-3 align-content-center">
@@ -65,7 +65,18 @@
 </div>
 
 <?php $this->load->view('Footer_view'); ?>
+<script type="text/javascript">
+	const $icon = $(".prefix");
+	$("input").focus(function() {
+		$icon.removeClass("text-white").addClass("focused-input");
+	});
 
+	$("input").blur(function() {
+		if(!$(this).val()) {
+			$icon.addClass("text-white").removeClass("focused-input");
+		}
+	});
+</script>
 </body>
 </html>
 
