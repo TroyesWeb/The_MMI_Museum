@@ -1,5 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+// TODO: Prise en charge des deux différents types de compte
+
 class Login extends CI_Controller {
 
 	public function __construct()
