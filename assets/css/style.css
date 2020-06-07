@@ -10,6 +10,19 @@ header,
 	height: 100%;
 }
 
+input:focus:not([readonly]) + label {
+	color: #ce93d8 !important;
+}
+
+.prefix .active {
+	color: #ce93d8 !important;
+}
+
+input:focus:not([readonly]) {
+	border-bottom: 1px solid #ce93d8 !important;
+	box-shadow: 0 1px 0 0 #ce93d8 !important;
+}
+
 #description {
 	font-weight: 400;
 }

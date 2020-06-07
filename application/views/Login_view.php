@@ -23,7 +23,7 @@
 					<!-- Material form subscription -->
 					<div class="card bg-transparent">
 
-						<h5 class="card-header transparent white-text text-center py-4">
+						<h5 class="card-header white-text text-center py-4">
 							<strong>Connexion</strong>
 						</h5>
 
@@ -31,18 +31,20 @@
 						<div class="card-body px-lg-5">
 
 							<!-- Form -->
-							<form class="text-center text-white" action="#!">
+							<form class="text-left text-white" action="#!">
 
 								<!-- Identifiant -->
-								<div class="md-form mt-3 rgba-white-light rounded-pill">
-									<input type="text" id="identifiant" class="form-control rounded text-white">
-									<label for="identifiant">Identifiant</label>
+								<div class="md-form mt-3 align-content-center">
+									<i class="fas fa-user prefix"></i>
+									<input type="text" id="identifiant" class="form-control px-3 text-white rgba-white-light rounded-pill">
+									<label class="pl-3 text-white" for="identifiant">Identifiant</label>
 								</div>
 
 								<!-- Mot de passe -->
-								<div class="md-form mt-3 rgba-white-light rounded-pill">
-									<input type="password" id="password" class="form-control">
-									<label for="password">Mot de passe</label>
+								<div class="md-form mt-3 align-content-center">
+									<i class="fas fa-key prefix"></i>
+									<input type="password" id="password" class="form-control px-3 text-white rgba-white-light rounded-pill">
+									<label class="pl-3 text-white" for="password">Mot de passe</label>
 								</div>
 
 								<!-- Sign in button -->
@@ -55,21 +57,6 @@
 
 					</div>
 					<!-- Material form -->
-				</div>
-			</div>
-
-			<!-- Boutons -->
-			<div class="row align-middle mb-3">
-				<div class="col pt-5">
-					<p class="text-center text-white font-weight-bolder">
-						Votre profil:
-					</p>
-					<p class="text-center text-white">
-						<a class="text-white" href="<?php echo base_url() ?>Login">
-							<button type="button" class="btn btn-lg purple lighten-2 btn-rounded">Étudiant</button>
-							<button type="button" class="btn btn-lg purple lighten-2 btn-rounded">Administrateur</button>
-						</a>
-					</p>
 				</div>
 			</div>
 
