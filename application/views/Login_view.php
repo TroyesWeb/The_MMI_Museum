@@ -1,7 +1,5 @@
 <?php $this->load->view('Head_view'); ?>
-
-
-
+<body>
 
 <div class="container-login100" style="background-image: url('<?php echo base_url() ?>asset/login/images/img-01.jpg');">
 	<div class="wrap-login100 p-t-190 p-b-30">
@@ -36,13 +34,6 @@
 		</form>
 	</div>
 </div>
-
-
-
-
-
-
-
 
 <?php $this->load->view('Footer_view'); ?>
 

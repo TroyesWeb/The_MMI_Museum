@@ -7,6 +7,7 @@
 		<div class="container align-content-center align-items-center">
 
 			<!-- Logos -->
+			<!-- TODO: Modifier les images pour des images + adaptées, de la même taille -->
 			<div class="row py-5 d-flex justify-content-center text-center">
 				<div class="col col-md-2">
 					<img class="img-fluid" style="width: 13rem" src="<?php echo base_url()?>assets/photos/logonoiretblanc.png" alt="">
@@ -33,8 +34,10 @@
 						Votre profil:
 					</p>
 					<p class="text-center text-white">
-						<button type="button" class="btn btn-lg purple lighten-2 btn-rounded">Étudiant</button>
-						<button type="button" class="btn btn-lg purple lighten-2 btn-rounded">Administrateur</button>
+						<a class="text-white" href="<?php echo base_url() ?>Login">
+							<button type="button" class="btn btn-lg purple lighten-2 btn-rounded">Étudiant</button>
+							<button type="button" class="btn btn-lg purple lighten-2 btn-rounded">Administrateur</button>
+						</a>
 					</p>
 				</div>
 			</div>
