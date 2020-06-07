@@ -34,7 +34,6 @@ class Login extends CI_Controller {
 		else{
 			redirect(base_url().'Login');
 		}
-
 	}
 
 }
