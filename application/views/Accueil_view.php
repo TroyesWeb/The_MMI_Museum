@@ -8,10 +8,10 @@
 
 			<!-- Logos -->
 			<!-- TODO: Modifier les images pour des images + adaptées, de la même taille -->
-			<div class="row py-5 d-flex justify-content-center text-center">
-				<div class="col col-md-2">
-					<img class="img-fluid" style="width: 13rem" src="<?php echo base_url()?>assets/photos/logonoiretblanc.png" alt="">
-					<img class="img-fluid" style="width: 13rem" src="<?php echo base_url()?>assets/photos/logo_mmi_troyes.png" alt="">
+			<div class="row py-5 justify-content-center text-center">
+				<div class="col-2 d-inline-flex text-center justify-content-center">
+					<img class="img-fluid px-2" style="max-width: 15rem" src="<?php echo base_url()?>assets/photos/logonoiretblanc.png" alt="">
+					<img class="img-fluid px-2" style="max-width: 15rem" src="<?php echo base_url()?>assets/photos/logo_mmi_troyes.png" alt="">
 				</div>
 			</div>
 
