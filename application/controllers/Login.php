@@ -11,8 +11,11 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
-		$_SESSION['ident']='';
-		$this->load->view('Login_view');
+		if (isset($_SESSION['ident']))
+		{
+			$this->load->view('Login_view');
+		}
+		else redirect(base_url().'test'); // La page à laquelle les utilisateurs vont accéder
 	}
 
 	public function Verif()
@@ -26,11 +29,10 @@ class Login extends CI_Controller {
 
 		if( $reponse ){
 			$_SESSION['ident'] = "admin";
-			redirect(base_url().'test'); // Mettre la page à laquelle les utilisateurs vont accéder
+			redirect(base_url().'test'); // La page à laquelle les utilisateurs vont accéder
 		}
 		else{
 			redirect(base_url().'Login');
-
 		}
 
 	}
