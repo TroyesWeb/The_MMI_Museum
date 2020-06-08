@@ -34,21 +34,21 @@
 					<p class="text-center text-white font-weight-bolder">
 						Votre profil:
 					</p>
-					<p class="text-center text-white">
-						<a class="text-white" href="<?php echo base_url() ?>Consultation">
-							<button type="button" class="btn btn-lg purple lighten-3 btn-rounded">Visiteur</button>
-						</a>
-						<a class="text-white" href="<?php echo base_url() ?>Login">
-							<button type="button" class="btn btn-lg purple lighten-2 btn-rounded">Étudiant</button>
-							<button type="button" class="btn btn-lg purple lighten-2 btn-rounded">Administrateur</button>
-						</a>
-					</p>
 				</div>
 			</div>
-
+			<div class="align-middle align-content-center text-center mb-3">
+				<a class="text-white" href="<?php echo base_url() ?>Login">
+					<button href="<?php echo base_url() ?>Login" type="button" class="btn btn-lg purple lighten-2 btn-rounded">Étudiant</button>
+				</a>
+				<a class="text-white" href="<?php echo base_url() ?>Login">
+					<button href="<?php echo base_url() ?>Login" type="button" class="btn btn-lg purple lighten-2 btn-rounded">Administrateur</button>
+				</a>
+				<a class="text-white" href="<?php echo base_url() ?>Consultation">
+					<button type="button" class="btn btn-lg purple lighten-3 btn-rounded">Visiteur</button>
+				</a>
+			</div>
 		</div>
 	</div>
-</div>
-<?php $this->load->view('Footer_view'); ?>
+	<?php $this->load->view('Footer_view'); ?>
 </body>
 </html>
