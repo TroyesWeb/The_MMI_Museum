@@ -11,12 +11,11 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
-//	if (!isset($_SESSION['ident']))
-//	{
-			$_SESSION['ident']='xxx';
+		if (!isset($_SESSION['ident']))
+	{
 			$this->load->view('Login_view');
-//	}
-//		else redirect(base_url().'test'); // La page à laquelle les utilisateurs vont accéder
+	}
+			else redirect(base_url().'Gestion'); // La page à laquelle les utilisateurs vont accéder
 	}
 
 	public function Verif()
