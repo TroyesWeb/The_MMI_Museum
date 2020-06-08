@@ -1,14 +1,12 @@
 <!-- Footer -->
-<footer>
-	<!-- Footer Elements -->
-	<!-- Footer Elements -->
+<footer class="page-footer font-small bg-transparent">
+
 	<!-- Copyright -->
-	<div class="fixed-bottom text-center">
-		<!-- Copyright -->
-		<div class="white-text">© 2020 Copyright:
-			<a href="https://themmimuseum.ml" style="text-decoration: none; color: white;"> MMI MUSEUM</a>
-		</div>
+	<div class="footer-copyright text-center py-3">© <?php echo date("Y"); ?> Copyright:
+		<a href="https://mmimuseum.ml/"> mmimuseum.ml</a>
+	</div>
 	<!-- Copyright -->
+
 </footer>
 <!-- Footer -->
 <!-- Importing JS -->
