@@ -1,6 +1,3 @@
-<?php $this->load->view('Head_view'); ?>
-<body>
-
 <div>
 <!-- SideNav slide-out button -->
 <a href="#" data-activates="slide-out" class="btn purple lighten-3 p-3 button-collapse"><i
@@ -104,6 +101,3 @@
 	</div>
 </div>
 <!--/. Sidebar navigation -->
-<?php $this->load->view('Footer_view'); ?>
-</body>
-</html>
