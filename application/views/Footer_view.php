@@ -1,13 +1,13 @@
 <!-- Footer -->
-<footer class="page-footer fixed-bottom font-small transparent pt-4">
+<footer>
 	<!-- Footer Elements -->
-	<div class="container">
-	</div>
 	<!-- Footer Elements -->
 	<!-- Copyright -->
-	<div class="footer-copyright text-center pt-3 pb-3">© <?php echo date("Y"); ?> Copyright:
-		<a href="https://themmimuseum.ml/"> MMI Museum</a>
-	</div>
+	<div class="fixed-bottom text-center">
+		<!-- Copyright -->
+		<div class="white-text">© 2020 Copyright:
+			<a href="https://themmimuseum.ml" style="text-decoration: none; color: white;"> MMI MUSEUM</a>
+		</div>
 	<!-- Copyright -->
 </footer>
 <!-- Footer -->
