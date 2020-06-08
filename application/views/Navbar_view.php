@@ -34,7 +34,9 @@
 		<!--bouton upload-->
 		<li>
 			<div class="w-responsive text-center mx-auto mb-2">
-				<button type="button" class="btn purple lighten-3 btn-rounded">UPLOAD</button>
+				<a href="<?php echo base_url()?>Upload">
+					<button type="button" class="btn purple lighten-3 btn-rounded">UPLOAD</button>
+				</a>
 			</div>
 		</li>
 		<!--bouton upload-->
