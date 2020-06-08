@@ -87,17 +87,5 @@
 		</li>
 		<!--/. Side navigation links -->
 	</ul>
-	<!-- Footer -->
-	<div class="fixed-bottom purple lighten-3 text-center">
-		<img src="<?php echo base_url()?>assets/photos/logonoiretblanc.png" class="img-fluid w-50 p-3">
-		<!-- Copyright -->
-		<div class="">© 2020 Copyright:
-			<a href="https://themmimuseum.ml" style="text-decoration: none; color: white;"> MMI MUSEUM</a>
-		</div>
-		<!-- Copyright -->
-	</div>
-	<!-- Footer -->
-	<div class="">
-	</div>
 </div>
 <!--/. Sidebar navigation -->
