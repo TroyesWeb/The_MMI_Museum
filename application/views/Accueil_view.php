@@ -1,5 +1,5 @@
 <?php $this->load->view('Head_view'); ?>
-<body class="fixed-sn light-blue-skin">
+<body class="">
 <!-- Full Page Intro -->
 <div class="view" style="background-image: url('https://remeng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2019/01/31/node_36158/3977620/public/2019/01/31/B9718433140Z.1_20190131213803_000%2BGG0CSM6AT.1-0.jpg?itok=_eiKH9Iw1548967091'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
 	<!-- Mask & flexbox options-->
@@ -46,7 +46,6 @@
 		</div>
 	</div>
 </div>
-
 <?php $this->load->view('Footer_view'); ?>
 </body>
 </html>
