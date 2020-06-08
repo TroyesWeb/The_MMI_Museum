@@ -15,6 +15,5 @@ class Upload extends CI_Controller {
 				$this->load->view('Upload_view');
 			}
 		}
-
 }
 ?>
