@@ -24,7 +24,7 @@
 					<div class="card bg-transparent">
 
 						<h5 class="card-header white-text text-center py-4">
-							<strong>Envoie de travaux</strong>
+							<strong>Upload de votre travail</strong>
 						</h5>
 
 						<!--Card content-->
@@ -76,7 +76,7 @@
 								</div>
 
 								<!-- Sign in button -->
-								<button class="btn purple lighten-3 btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Envoyez</button>
+								<button class="btn purple lighten-3 btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Envoyer</button>
 
 							</form>
 							<!-- Form -->
