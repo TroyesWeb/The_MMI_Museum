@@ -1,6 +1,6 @@
 <div>
 <!-- SideNav slide-out button -->
-<a href="#" data-activates="slide-out" class="btn purple lighten-3 p-3 button-collapse"><i
+<a href="#" data-activates="slide-out" class="btn purple lighten-3 p-3 button-collapse text-white"><i
 		class="fas fa-bars"></i></a>
 </div>
 
@@ -10,7 +10,7 @@
 		<!-- Logo -->
 		<li class="text-center">
 			<div class="text-center">
-				<img src="<?php echo base_url()?>assets/photos/logonoiretblanc.png" class="img-fluid w-75 p-4">
+					<img src="<?php echo base_url()?>assets/photos/logonoiretblanc.png" class="img-fluid w-75 p-4">
 			</div>
 		</li>
 		<!--/. Logo -->
