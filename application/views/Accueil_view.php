@@ -35,6 +35,9 @@
 						Votre profil:
 					</p>
 					<p class="text-center text-white">
+						<a class="text-white" href="<?php echo base_url() ?>Consultation">
+							<button type="button" class="btn btn-lg purple lighten-3 btn-rounded">Visiteur</button>
+						</a>
 						<a class="text-white" href="<?php echo base_url() ?>Login">
 							<button type="button" class="btn btn-lg purple lighten-2 btn-rounded">Étudiant</button>
 							<button type="button" class="btn btn-lg purple lighten-2 btn-rounded">Administrateur</button>
