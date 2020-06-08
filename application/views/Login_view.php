@@ -31,7 +31,7 @@
 						<div class="card-body px-lg-5">
 
 							<!-- Form -->
-							<form id="connexion" class="text-left text-white" action="#!">
+							<form id="connexion" class="text-left text-white" method="POST" action="<?php echo base_url() ?>Login/Verif">
 
 								<!-- Identifiant -->
 								<div class="md-form mt-3 align-content-center">
@@ -48,7 +48,7 @@
 								</div>
 
 								<!-- Sign in button -->
-								<button class="btn purple lighten-3 btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Connexion</button>
+								<button class="btn purple lighten-3 btn-rounded btn-block z-depth-0 my-4 waves-effect">Connexion</button>
 
 							</form>
 							<!-- Form -->
