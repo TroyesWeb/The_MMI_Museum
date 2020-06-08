@@ -5,10 +5,10 @@
 </div>
 
 <!-- Sidebar navigation -->
-<div id="slide-out" class="side-nav fixed purple lighten-4">
+<div id="slide-out" class="side-nav bleuviolet">
 	<ul class="custom-scrollbar">
 		<!-- Logo -->
-		<li class="">
+		<li class="text-center">
 			<div class="text-center">
 				<img src="<?php echo base_url()?>assets/photos/logonoiretblanc.png" class="img-fluid w-75 p-4">
 			</div>
@@ -33,9 +33,9 @@
 
 		<!--bouton upload-->
 		<li>
-			<div class="w-responsive text-center mx-auto mb-2">
-				<a href="<?php echo base_url()?>Upload">
-					<button type="button" class="btn purple lighten-3 btn-rounded">UPLOAD</button>
+			<div class="text-center mb-2">
+				<a class="text-center" href="<?php echo base_url()?>Upload">
+					<button type="button" class="btn btn-rounded btn-small white black-text">Upload</button>
 				</a>
 			</div>
 		</li>

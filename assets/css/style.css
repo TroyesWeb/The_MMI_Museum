@@ -1,6 +1,7 @@
 /* Required for full background image */
 html,
 body {
+	min-height: 100%;
 	height: 100%
 }
 html,
@@ -8,6 +9,11 @@ body,
 header,
 .view {
 	height: 100%;
+}
+
+.bleuviolet {
+	color: #5662BC;
+	background-color: #5662BC;
 }
 
 input:focus:not([readonly]) + label {

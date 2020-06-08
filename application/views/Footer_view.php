@@ -3,7 +3,7 @@
 
 	<!-- Copyright -->
 	<div class="footer-copyright text-center py-3">© <?php echo date("Y"); ?> Copyright:
-		<a href="https://mmimuseum.ml/"> mmimuseum.ml</a>
+		<a href="https://mmimuseum.ml/"> mmimuseum.ml</a> &dash; <a href="<?php echo base_url()?>Mentions">Mentions légales</a>
 	</div>
 	<!-- Copyright -->
 

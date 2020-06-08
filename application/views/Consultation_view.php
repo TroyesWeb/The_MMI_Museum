@@ -39,7 +39,7 @@
 		// SideNav Button Initialization
 		$(".button-collapse").sideNav();
 		// SideNav Scrollbar Initialization
-		var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+		var sideNavScrollbar = document.querySelector('.side-nav');
 		var ps = new PerfectScrollbar(sideNavScrollbar);
 	});
 </script>
