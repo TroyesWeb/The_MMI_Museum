@@ -1,5 +1,5 @@
 <?php $this->load->view('Head_view'); ?>
-<body class="fixed-sn light-blue-skin">
+<body class="">
 <!-- Full Page Intro -->
 <div class="view" style="background-image: url('https://remeng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2019/01/31/node_36158/3977620/public/2019/01/31/B9718433140Z.1_20190131213803_000%2BGG0CSM6AT.1-0.jpg?itok=_eiKH9Iw1548967091'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
 	<!-- Mask & flexbox options-->
@@ -34,19 +34,21 @@
 					<p class="text-center text-white font-weight-bolder">
 						Votre profil:
 					</p>
-					<p class="text-center text-white">
-						<a class="text-white" href="<?php echo base_url() ?>Login">
-							<button type="button" class="btn btn-lg purple lighten-2 btn-rounded">Étudiant</button>
-							<button type="button" class="btn btn-lg purple lighten-2 btn-rounded">Administrateur</button>
-						</a>
-					</p>
 				</div>
 			</div>
-
+			<div class="align-middle align-content-center text-center mb-3">
+				<a class="text-white" href="<?php echo base_url() ?>Login">
+					<button href="<?php echo base_url() ?>Login" type="button" class="btn btn-lg purple lighten-2 btn-rounded">Étudiant</button>
+				</a>
+				<a class="text-white" href="<?php echo base_url() ?>Login">
+					<button href="<?php echo base_url() ?>Login" type="button" class="btn btn-lg purple lighten-2 btn-rounded">Administrateur</button>
+				</a>
+				<a class="text-white" href="<?php echo base_url() ?>Consultation">
+					<button type="button" class="btn btn-lg purple lighten-3 btn-rounded">Visiteur</button>
+				</a>
+			</div>
 		</div>
 	</div>
-</div>
-
-<?php $this->load->view('Footer_view'); ?>
+	<?php $this->load->view('Footer_view'); ?>
 </body>
 </html>

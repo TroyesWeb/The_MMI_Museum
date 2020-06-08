@@ -1,14 +1,12 @@
 <!-- Footer -->
-<footer class="page-footer fixed-bottom font-small transparent pt-4">
-	<!-- Footer Elements -->
-	<div class="container">
-	</div>
-	<!-- Footer Elements -->
+<footer class="page-footer fixed-bottom font-small bg-transparent">
+
 	<!-- Copyright -->
-	<div class="footer-copyright text-center pt-3 pb-3">© <?php echo date("Y"); ?> Copyright:
-		<a href="https://themmimuseum.ml/"> MMI Museum</a>
+	<div class="footer-copyright text-center py-3">© <?php echo date("Y"); ?> Copyright:
+		<a href="https://mmimuseum.ml/"> mmimuseum.ml</a> &dash; <a href="<?php echo base_url()?>Mentions">Mentions légales</a>
 	</div>
 	<!-- Copyright -->
+
 </footer>
 <!-- Footer -->
 <!-- Importing JS -->
@@ -21,14 +19,4 @@
 	$(document).ready(function() {
 		new WOW().init();
 	});
-</script>
-<script>
-	$(document).ready(function() {
-
-		// SideNav Button Initialization
-		$(".button-collapse").sideNav();
-		// SideNav Scrollbar Initialization
-		var sideNavScrollbar = document.querySelector('.custom-scrollbar');
-		var ps = new PerfectScrollbar(sideNavScrollbar);
-	})
 </script>

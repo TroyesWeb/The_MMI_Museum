@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Generation Time: Jun 08, 2020 at 02:31 PM
--- Server version: 5.7.30-0ubuntu0.16.04.1
--- PHP Version: 7.3.16
+-- Hôte : 127.0.0.1:3306
+-- Généré le :  lun. 08 juin 2020 à 15:49
+-- Version du serveur :  10.4.10-MariaDB
+-- Version de PHP :  7.3.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,96 +19,71 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `mmimuseum`
+-- Base de données :  `mmi_museum`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `admin`
+-- Structure de la table `admin`
 --
 
-CREATE TABLE `admin` (
-  `admin_id` int(4) NOT NULL,
-  `admin_identifiant` int(40) NOT NULL,
-  `admin_password` int(100) NOT NULL,
-  `admin_nom` int(30) NOT NULL,
-  `admin_prenom` int(30) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+DROP TABLE IF EXISTS `admin`;
+CREATE TABLE IF NOT EXISTS `admin` (
+  `admin_id` int(5) NOT NULL AUTO_INCREMENT,
+  `admin_identifiant` varchar(30) NOT NULL,
+  `admin_password` varchar(100) NOT NULL,
+  `admin_prenom` varchar(30) NOT NULL,
+  `admin_nom` varchar(30) NOT NULL,
+  PRIMARY KEY (`admin_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `admin`
+--
+
+INSERT INTO `admin` (`admin_id`, `admin_identifiant`, `admin_password`, `admin_prenom`, `admin_nom`) VALUES
+(1, 'admin', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', '', '');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `realisations`
+-- Structure de la table `consultation`
 --
 
-CREATE TABLE `realisations` (
-  `realisations_id` int(15) NOT NULL,
-  `realisations_inti` varchar(40) NOT NULL,
-  `realisations_desc` varchar(250) NOT NULL,
-  `realisations_photo` varchar(30) NOT NULL,
-  `realisations_type` varchar(20) NOT NULL,
-  `realisations_classe` varchar(10) NOT NULL,
-  `realisations_date` date NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+DROP TABLE IF EXISTS `consultation`;
+CREATE TABLE IF NOT EXISTS `consultation` (
+  `oeuvre_id` int(6) NOT NULL AUTO_INCREMENT,
+  `oeuvre_intitule` varchar(30) NOT NULL,
+  `oeuvre_desc` varchar(150) NOT NULL,
+  `oeuvre_photo` varchar(20) NOT NULL,
+  `oeuvre_date` date NOT NULL,
+  `oeuvre_classe` varchar(6) NOT NULL,
+  PRIMARY KEY (`oeuvre_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Structure de la table `users`
 --
 
-CREATE TABLE `users` (
-  `users_id` int(15) NOT NULL,
-  `identifiant` varchar(40) NOT NULL,
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE IF NOT EXISTS `users` (
+  `users_id` int(8) NOT NULL AUTO_INCREMENT,
+  `identifiant` varchar(30) NOT NULL,
   `password` varchar(100) NOT NULL,
   `users_prenom` varchar(30) NOT NULL,
-  `users_nom` varchar(30) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+  `users_nom` varchar(30) NOT NULL,
+  PRIMARY KEY (`users_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 --
--- Indexes for dumped tables
+-- Déchargement des données de la table `users`
 --
 
---
--- Indexes for table `admin`
---
-ALTER TABLE `admin`
-  ADD PRIMARY KEY (`admin_id`);
-
---
--- Indexes for table `realisations`
---
-ALTER TABLE `realisations`
-  ADD PRIMARY KEY (`realisations_id`);
-
---
--- Indexes for table `users`
---
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`users_id`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `admin`
---
-ALTER TABLE `admin`
-  MODIFY `admin_id` int(4) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `realisations`
---
-ALTER TABLE `realisations`
-  MODIFY `realisations_id` int(15) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `users`
---
-ALTER TABLE `users`
-  MODIFY `users_id` int(15) NOT NULL AUTO_INCREMENT;
+INSERT INTO `users` (`users_id`, `identifiant`, `password`, `users_prenom`, `users_nom`) VALUES
+(1, 'test', '9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08', 'test', 'test');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -31,24 +31,24 @@
 						<div class="card-body px-lg-5">
 
 							<!-- Form -->
-							<form id="connexion" class="text-left text-white" action="#!">
+							<form id="connexion" class="text-left text-white" method="POST" action="<?php echo base_url() ?>Login/Verif">
 
 								<!-- Identifiant -->
 								<div class="md-form mt-3 align-content-center">
 									<i class="fas fa-user prefix"></i>
-									<input type="text" id="identifiant" class="form-control px-3 text-white rgba-white-light rounded-pill">
+									<input type="text" id="identifiant" name="identifiant" class="form-control px-3 text-white rgba-white-light rounded-pill">
 									<label class="pl-3 text-white" for="identifiant">Identifiant</label>
 								</div>
 
 								<!-- Mot de passe -->
 								<div class="md-form mt-3 align-content-center">
 									<i class="fas fa-key prefix"></i>
-									<input type="password" id="password" class="form-control px-3 text-white rgba-white-light rounded-pill">
+									<input type="password" id="password" name="password" class="form-control px-3 text-white rgba-white-light rounded-pill">
 									<label class="pl-3 text-white" for="password">Mot de passe</label>
 								</div>
 
 								<!-- Sign in button -->
-								<button class="btn purple lighten-3 btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Connexion</button>
+								<button class="btn purple lighten-3 btn-rounded btn-block z-depth-0 my-4 waves-effect">Connexion</button>
 
 							</form>
 							<!-- Form -->
