@@ -9,12 +9,22 @@ class Gestion extends CI_Controller
 
 		$this->load->database();
 		$this->load->helper('url');
-		if (!isset($_SESSION['ident']) || $_SESSION['ident'] != 'admin') redirect(base_url() . 'Login');
-		if (!isset($_SESSION['ident']) || $_SESSION['ident'] != 'user') redirect(base_url() . 'Login');
+
+		if (!isset($_SESSION['ident'])) {
+			redirect(base_url() . 'Login');
+		}
+
+		else if ($_SESSION['ident'] = 'admin') {
+			$this->load->view('Gestion_accueil_view');
+		}
+
+		else if ($_SESSION['ident'] = 'user') {
+			$this->load->view('Gestion_accueil_view');
+		}
 	}
 
 	public function index()
 	{
-		$this->load->view('gestion_accueil_view');
+		$this->load->view('Gestion_accueil_view');
 	}
 }
