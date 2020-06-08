@@ -57,6 +57,56 @@
 				Les responsables du site TMM - The MMI Museum se réserve le droit de suspendre l'accès au site en cas d'utilisation frauduleuse ou de tentative d'utilisation frauduleuse du mot de passe ou du code d'accès d'un utilisateur.
 				En cas de suspension de l'accès, TMM - The MMI Museum informera l'utilisateur. Le changement régulier de mot de passe est conseillé pour des raisons de confidentialité et de sécurité, et reste possible à tout moment sur le site.
 			</p>
+
+			<h2 class="text-white py-3">Propriété intelectuelle</h2>
+			<p class="text-white">
+				La structure générale du site ainsi que les contenus textuels, les images, les graphismes et tout autre élément composant le site sont la propriété exclusive de l'Institut Universitaire de Technologie de Troyes et sont exploités sous licence.
+				<br>
+
+				Il en est de même pour les données figurant sur le site Internet qui sont protégées par les dispositions de la loi du 11 juillet 1998 portant transposition dans le Code de la propriété intellectuelle (CPI) de la directive européenne du 11 mars 1996 relative à la protection juridique des bases de données.
+				<br>
+				Toute reproduction ou représentation totale ou partielle de ce site par quelque procédé que ce soit, sans l'autorisation expresse de l'IUT de Troyes est interdite et constituerait une contrefaçon sanctionnée par les article L 335-2 et suivants du Code de la propriété intellectuelle.
+				<br>
+				L'utilisateur est seul responsable du choix, de l'utilisation et de l'interprétation des données qu'il consulte, interroge et transfère sur l'internet et de l'usage des informations en ligne proposées par l'IUT de Troyes dont la responsabilité ne saurait être engagée à quelque titre que ce soit.
+				<br>
+				l'Institut Universitaire de Technologie de Troyes ne saurait être tenue pour responsable des erreurs, d'une absence de disponibilité des informations et/ou de la présence de virus sur son site.
+				<br>
+				L'utilisateur du site  reconnaît disposer de la compétence et des moyens nécessaires pour accéder et utiliser ce site.
+				<br>
+				L'utilisateur reconnaît également avoir pris connaissance de ses mentions légales concernant la propriété intellectuelle et s'engage à la respecter.
+			</p>
+
+			<h2 class="text-white py-3">Liens hypertextes</h2>
+			<p class="text-white">
+				L'Institut Universitaire de Technologie de Troyes décline toute responsabilité sur le contenu des sites dont il n'est pas l'éditeur et qui sont accessibles par l'intermédiaire de liens hypertextes.
+				<br>
+				Les liens hypertextes mis en place dans le cadre du site Internet en direction d'autres ressources présentes sur le réseau de l'Internet et notamment vers des liens externes.
+				Nous remercions les utilisateurs du site de nous faire part d'éventuelles erreurs ou corrections en nous adressant un courriel à l'adresse suivante : (choisir un mail)
+				<br>
+			</p>
+
+			<h2 class="text-white py-3">Droits d'auteur et copyright</h2>
+			<p class="text-white">
+				L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques.
+				<br>
+				La reproduction de tout ou partie de ce site sur un support électronique quel qu'il soit est formellement interdite sauf autorisation expresse du directeur de la publication.
+				<br>
+			</p>
+
+			<h2 class="text-white py-3">Crédits photographiques</h2>
+			<p class="text-white">
+				Département MMI, IUT de Troyes
+			</p>
+
+			<h2 class="text-white py-3">Modification des mentions légales</h2>
+			<p class="text-white">
+				TMM – The MMI Museum se réserve le droit de modifier les mentions légales à tout moment. L'utilisateur s'engage donc à la consulter régulièrement.
+			</p>
+
+			<h2 class="text-white py-3">Juridiction</h2>
+			<p class="text-white">
+				En cas de litige le droit applicable est le droit français et l’attribution de juridiction est exclusive aux tribunaux compétents de la ville de Troyes.
+			</p>
 		</div>
 	</div>
 </div>
