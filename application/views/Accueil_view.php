@@ -7,6 +7,9 @@
 
 		<div class="container align-content-center align-items-center">
 
+			<!-- SideNav slide-out button -->
+			<a href="#" data-activates="slide-out" class="btn purple lighten-3 p-3 button-collapse"><i
+					class="fas fa-bars"></i></a>
 			<!-- Logos -->
 			<!-- TODO: Modifier les images pour des images + adaptées, de la même taille -->
 			<div class="row py-5 justify-content-center text-center">
