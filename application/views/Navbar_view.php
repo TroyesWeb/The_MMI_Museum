@@ -1,6 +1,3 @@
-<?php $this->load->view('Head_view'); ?>
-<body class="fixed-sn light-blue-skin">
-
 <!--Double navigation-->
 <header>
 	<!-- Sidebar navigation -->
@@ -16,9 +13,6 @@
 			<br>
 			<!-- Grid column -->
 			<div class="w-50 p-2 mt-4">
-				<div>
-					<img src="<?php echo base_url() ?>assets/photos/<?php echo $ligne->...... ?>" class="img-fluid rounded-circle" alt="Responsive image">
-				</div>
 			</div>
 			<!-- Grid column -->
 			<div>
@@ -110,7 +104,3 @@
 	<!-- /.Navbar -->
 </header>
 <!--/.Double navigation-->
-
-<?php $this->load->view('Footer_view'); ?>
-</body>
-</html>
