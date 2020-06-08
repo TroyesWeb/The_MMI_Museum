@@ -1,9 +1,11 @@
 <?php $this->load->view('Head_view'); ?>
 <body>
 
-<?php $this->load->view('Accueil_view'); ?>
-
-
+<div>
+<!-- SideNav slide-out button -->
+<a href="#" data-activates="slide-out" class="btn purple lighten-3 p-3 button-collapse"><i
+		class="fas fa-bars"></i></a>
+</div>
 
 <!-- Sidebar navigation -->
 <div id="slide-out" class="side-nav fixed purple lighten-4">
