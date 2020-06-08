@@ -168,6 +168,15 @@
 <?php } ?>
 
 <?php $this->load->view('Footer_view'); ?>
+<script>
+	$(document).ready(() => {
+		// SideNav Button Initialization
+		$(".button-collapse").sideNav();
+		// SideNav Scrollbar Initialization
+		var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+		var ps = new PerfectScrollbar(sideNavScrollbar);
+	});
+</script>
 </body>
 </html>
 
