@@ -128,6 +128,6 @@
 	</div>
 </main>
 <!--Main Layout-->
-
+<?php $this->load->view('Footer_view'); ?>
 </body>
 </html>
