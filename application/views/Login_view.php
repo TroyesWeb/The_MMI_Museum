@@ -36,14 +36,14 @@
 								<!-- Identifiant -->
 								<div class="md-form mt-3 align-content-center">
 									<i class="fas fa-user prefix"></i>
-									<input type="text" id="identifiant" class="form-control px-3 text-white rgba-white-light rounded-pill">
+									<input type="text" id="identifiant" name="ident" class="form-control px-3 text-white rgba-white-light rounded-pill">
 									<label class="pl-3 text-white" for="identifiant">Identifiant</label>
 								</div>
 
 								<!-- Mot de passe -->
 								<div class="md-form mt-3 align-content-center">
 									<i class="fas fa-key prefix"></i>
-									<input type="password" id="password" class="form-control px-3 text-white rgba-white-light rounded-pill">
+									<input type="password" id="password" name="mdp" class="form-control px-3 text-white rgba-white-light rounded-pill">
 									<label class="pl-3 text-white" for="password">Mot de passe</label>
 								</div>
 

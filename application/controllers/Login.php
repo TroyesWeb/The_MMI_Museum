@@ -41,12 +41,11 @@ class Login extends CI_Controller {
 
 		elseif( $reponse_U ){
 			$_SESSION['ident'] = "user";
-			redirect(base_url().'Accueil_E'); // La page à laquelle les etudiants vont accéder
+			redirect(base_url().'Gestion'); // La page à laquelle les etudiants vont accéder
 		}
 
 		else{
 			redirect(base_url().'Login');
-
 		}
 	}
 
