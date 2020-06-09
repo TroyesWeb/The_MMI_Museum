@@ -41,6 +41,16 @@
 		</li>
 		<!--bouton upload-->
 
+		<!--bouton accueil-->
+		<li>
+			<div class="text-center mb-2">
+				<a class="text-center" href="<?php echo base_url()?>">
+					<button type="button" class="btn btn-rounded btn-small white black-text">Accueil</button>
+				</a>
+			</div>
+		</li>
+		<!--bouton accueil-->
+
 		<!--Search Form-->
 		<li>
 			<form class="search-form" role="search">

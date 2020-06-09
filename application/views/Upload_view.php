@@ -32,7 +32,7 @@
 						<div class="card-body px-lg-5">
 
 							<!-- Form -->
-							<form id="connexion" class="text-left text-white" action="#!">
+							<form id="upload" class="text-left text-white" method="post" action="<?php base_url ()?>Upload/Envoi">
 
 								<!-- Intitulé -->
 								<div class="md-form mt-3 align-content-center">
@@ -55,26 +55,20 @@
 									<label class="pl-3 text-white" for="photo">Photo</label>
 								</div>
 
-								<!-- Type -->
+								<!-- Date -->
 								<div class="md-form mt-3 align-content-center">
-									<i class="fas fa-tags prefix"></i>
-									<input type="text" id="type" class="form-control px-3 text-white rgba-white-light rounded-pill">
-									<label class="pl-3 text-white" for="type">Type du document</label>
+									<i class="fas fa-clock prefix"></i>
+									<input type="date" id="date" name="date" class="form-control px-3 text-white rgba-white-light rounded-pill">
+									<label class="pl-3 text-white" for="date">Date</label>
 								</div>
 
 								<!-- Classe -->
 								<div class="md-form mt-3 align-content-center">
 									<i class="fas fa-user-graduate prefix"></i>
-									<input type="text" id="classe" class="form-control px-3 text-white rgba-white-light rounded-pill">
+									<input type="text" id="classe" name="classe" class="form-control px-3 text-white rgba-white-light rounded-pill">
 									<label class="pl-3 text-white" for="password">Classe</label>
 								</div>
 
-								<!-- Date -->
-								<div class="md-form mt-3 align-content-center">
-									<i class="fas fa-clock prefix"></i>
-									<input type="date" id="date" class="form-control px-3 text-white rgba-white-light rounded-pill">
-									<label class="pl-3 text-white" for="date">Date</label>
-								</div>
 
 								<!-- Sign in button -->
 								<button class="btn purple lighten-3 btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Envoyer</button>
@@ -105,6 +99,15 @@
             $icon.addClass("text-white").removeClass("focused-input");
         }
     });
+</script>
+<script>
+	$(document).ready(() => {
+		// SideNav Button Initialization
+		$(".button-collapse").sideNav();
+		// SideNav Scrollbar Initialization
+		var sideNavScrollbar = document.querySelector('.side-nav');
+		var ps = new PerfectScrollbar(sideNavScrollbar);
+	});
 </script>
 </body>
 </html>

@@ -6,11 +6,11 @@ class Upload_model extends CI_Model{
 		$this->load->database();
 	}
 
-	//public function upload()
-	//{
-	//$query = $this->db->query('INSERT INTO `consultation`(`oeuvre_inti`, `oeuvre_desc`, `oeuvres_photo`, `oeuvres_type`, `oeuvre_classe, oeuvres_date`) VALUES ($intitule,[value-2],[value-3],[value-4],[value-5],[value-6])');
-    //    return $query->result();
-	//}
+	public function Upload($intitule, $description, $photo, $classe, $date)
+	{
+	$query = $this->db->query("INSERT INTO `consultation`(`oeuvre_intitule`, `oeuvre_desc`, `oeuvre_photo`, `oeuvre_date`, `oeuvre_classe`) VALUES ('$intitule','$description','$photo','$date','$classe')");
+        return $query;
+	}
 
 
 
