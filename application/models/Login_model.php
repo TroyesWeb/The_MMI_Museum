@@ -8,7 +8,7 @@ class Login_model extends CI_Model{
 
 	public function verifLog_A($a,$d)
 	{
-		$query = $this->db->query("SELECT * FROM admin WHERE identifiant='$a' AND_password=sha2('$d',256)");
+		$query = $this->db->query("SELECT * FROM admin WHERE admin_identifiant='$a' AND admin_password=sha2('$d',256)");
 
 		return $query->num_rows();
 	}
