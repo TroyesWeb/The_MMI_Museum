@@ -25,7 +25,7 @@ class Upload extends CI_Controller {
 		$classe = $this->input->post('classe');
 		$date = $this->input->post('date');
 
-		$config['upload_path']          = base_url().'/assets/photos';
+		$config['upload_path']          = base_url().'/assets/photos/uploads';
 		$config['allowed_types']        = 'gif|jpg|png';
 		$config['max_size']             = 100;
 		$config['max_width']            = 1024;
@@ -44,7 +44,6 @@ class Upload extends CI_Controller {
 		else{
 			redirect (base_url ().'Upload');
 		}
-		// TODO: enregistrement de l'image dans /assets/photos
 	}
 }
 ?>
