@@ -1,22 +1,22 @@
 <?php
 class Upload extends CI_Controller {
 	public function index()
-	{
-		$this->load->model('Upload_model');
-		$this->load->database();
-		$this->load->helper('url');
-		if (!isset($_SESSION['ident'])) {
-			redirect(base_url() . 'Login');
-		}
+		{
+			$this->load->model('Upload_model');
+			$this->load->database();
+			$this->load->helper('url');
+			if (!isset($_SESSION['ident'])) {
+				redirect(base_url() . 'Login');
+			}
 
-		else if ($_SESSION['ident'] = 'admin') {
-			$this->load->view('Upload_view');
-		}
+			else if ($_SESSION['ident'] = 'admin') {
+				$this->load->view('Upload_view');
+			}
 
-		else if ($_SESSION['ident'] = 'user') {
-			$this->load->view('Upload_view');
+			else if ($_SESSION['ident'] = 'user') {
+				$this->load->view('Upload_view');
+			}
 		}
-	}
 
 	public function Envoi()
 	{
@@ -46,6 +46,7 @@ class Upload extends CI_Controller {
 		else{
 			redirect (base_url ().'Upload');
 		}
+		// TODO: enregistrement de l'image dans /assets/photos
 	}
 }
 ?>
