@@ -32,7 +32,7 @@
 						<div class="card-body px-lg-5">
 
 							<!-- Form -->
-							<form id="upload" class="text-left text-white" method="post" action="<?php base_url ()?>Upload/Envoi">
+							<form id="upload" class="text-left text-white" method="post" action="<?php echo base_url()?>Upload/Upload" enctype="multipart/form-data">
 
 								<!-- Intitulé -->
 								<div class="md-form mt-3 align-content-center">
