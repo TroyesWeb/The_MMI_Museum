@@ -46,7 +46,7 @@ class Upload extends CI_Controller {
 		else{
 			redirect (base_url ().'Upload');
 		}
-		// TODO: enregistrement de l'image dans /assets/photos
+		// TODO: faire fonctionner ça
 	}
 }
 ?>
