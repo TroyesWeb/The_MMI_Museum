@@ -100,6 +100,15 @@
         }
     });
 </script>
+<script>
+	$(document).ready(() => {
+		// SideNav Button Initialization
+		$(".button-collapse").sideNav();
+		// SideNav Scrollbar Initialization
+		var sideNavScrollbar = document.querySelector('.side-nav');
+		var ps = new PerfectScrollbar(sideNavScrollbar);
+	});
+</script>
 </body>
 </html>
 
